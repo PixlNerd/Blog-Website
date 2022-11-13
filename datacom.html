@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="datacom.js"></script>
+		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	</head>
+	<body>
+		<div class = "xyplot">
+			<h1> Scatter or Line Plot </h1>
+			<p>
+				<label>Enter X and Y Values:</label>
+				<p>X values:<br>
+				<input id="xvalues" style="width:95%" type="text" 
+				value="50,60,70,80,90,100,110,120,130,140,150">
+			</p>
+			<p>Y values:<br>
+				<input id="yvalues" style="width:95%" type="text"
+					value="7,8,8,9,9,9,10,11,14,14,15"></p>
+			<button onclick='plot("scatter")'>Scatter</button>
+			<button onclick='plot("lines")'>Draw Lines</button>
+			<div id="Plot1" style="width:100%;max-width:700px"></div>
+		</div>
+</body>
+</html>
+	</body>
+</html>
