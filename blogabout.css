@@ -1,13 +1,15 @@
 * {box-sizing:border-box}
 body {
 	margin: 0px;
+	background-image: url("pink-fklowers-copy.png");
  }
  .nav {
 	background-color: #4f4f4f;
 	padding-bottom: 0px;
-	position: absolute; 
+	position: fixed; 
 	top: 0; 
 	width: 100%;
+	z-index: 1;
  }
 .blog a {
 	color: #aaa9a9;
@@ -36,8 +38,6 @@ body {
 }
 .logo {
 	float: left;
-	cursor: -webkit-grab; 
-	cursor: grab;
 }
 .home a {
 	color: #aaa9a9;
@@ -53,9 +53,8 @@ body {
 	cursor: grab;
 }
 .aboutme {
-	padding-top: 0px;
-	padding-left: 300px;
-	padding-right: 300px;
+	margin-right:15%;
+	margin-left: 15%; 
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 20px;
 }
@@ -66,18 +65,66 @@ body {
 	font-size: 50px;
 	color: #fc9cc6;
 }
-.cr1 {
-	float: left;
+.kit2 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	color: #ffffff;
 }
-.cr2 {
-	float: center;
+.kit {
+	border: solid #000000;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 20px;
+	box-shadow: 5px 10px 8px #888888;
+	margin-bottom: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	padding-left: 10px;
+	padding-bottom: 30px;
+	background-color: #fc9cc6;
+	color: #ffffff;
 }
-.cr3 {
-	float: right;
+.fa-linkedin {
+	padding: 10px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+	background: #007bb5;
+	color: white;
+  	cursor: -webkit-grab; 
+	cursor: grab;
+}
+.fa-github {
+	padding: 10px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+	background: #000000;
+	color: #ffffff;
+  	cursor: -webkit-grab; 
+	cursor: grab;
+}
+.fa-pinterest {
+	background-color: #cb2027;
+	color: white;
+    cursor: -webkit-grab; 
+	cursor: grab;
+	padding: 10px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
 }
 .container {
-  width: 100%; 
-  background-color: #ddd; 
+	width: 100%; 
+	background-color: #ddd; 
 }
 .skills {
   text-align: right; 
@@ -86,57 +133,44 @@ body {
   color: white; 
 }
 .html {
-	width: 70%; 
+	width: 70%;
 	background-color: #ffffff;
 	color: #000000;
-	font-family: 'Ubuntu', sans-serif;
 } 
 .css {
 	width: 70%; 
 	background-color: #fc9cc6;
 	color: #ffffff;
-	font-family: 'Ubuntu', sans-serif;
 }
 .python {
 	width: 60%; 
-	background-color: #ffffff;
-	color: #000000;
-	font-family: 'Ubuntu', sans-serif;
-} 
-.sql {
-	width: 20%; 
 	background-color: #4f4f4f;
-	font-family: 'Ubuntu', sans-serif;
-}
-.english {
-	width: 90%; 
-	background-color: #ffffff;
-	color: #000000;
-	font-family: 'Ubuntu', sans-serif;
-}
-.spanish {
-	width: 10%; 
-	background-color: #fc9cc6;
-	color: #ffffff;
-	font-family: 'Ubuntu', sans-serif;
-}
+} 
 .langauges {
 	background-color: #666666;
-	margin-right: 300px;
-	margin-left: 300px;
-	border: solid;
-	margin-bottom: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-style: solid;
+	font-family: 'Ubuntu', sans-serif
 }
 .myl {
 	font-family: 'Ubuntu', sans-serif;
 	color: #fc9cc6;
 	text-align: center;
 }
-.label {
-	color: #aaa9a9;
-	font-size: 20px;
-	font-family: 'Ubuntu', sans-serif;
+.english {
+	width: 905;
+	background-color: #fc9cc6;
 }
+.spanish {
+	width: 20%;
+	background-color: #4f4f4f;
+} 
+.sql {
+	width: 20%;
+	background-color: #fff;
+	color: #000;
+} 
 .pro a {
 	color: #aaa9a9;
 	float: right;
@@ -152,13 +186,80 @@ body {
 }
 .cr {
 	background-color: #666666;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	margin-top: 10px;
 	padding-top: 10px;
 }
+.cr2 {
+	float: right;
+	margin-right: 660px;
+}
+.post1 {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 100px;
+	margin-right: 1000px;
+	margin-left: 150px;
+	margin-top: 0px;
+	box-shadow: 5px 10px 8px #888888;
+	float: left;
+}
+.hacker {
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+.title {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size: 50px;
+	color: #fc9cc6;
+	margin-top: 110px;
+}
+.post1-3 a  { 
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 0px;
+	text-align: center;
+	color: #000000;
+	padding-right: 70px;
+	padding-left: 70px;
+	text-decoration: none;
+	font-size: 20px;
+}
+.post1-3 a:hover{ 
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 0px;
+	text-align: center;
+	padding-right: 70px;
+	padding-left: 70px;
+	text-decoration: underline;
+	cursor: -webkit-grab; 
+	cursor: grab;
+}
+.post1-2{ 
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 0px;
+}
+.viewall {
+	margin-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 100px;
+	margin-right: 1000px;
+	margin-left: 150px;
+	box-shadow: 5px 10px 8px #888888;
+	float: left;
+	margin-bottom: 50px;
+}
 .cr1 {
+	background-color: #666666;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	padding-top: 10px;
 	float: left;
 	margin-top: 20px;
+	padding-right: 1458px;
 }
 .bloghome1 a {
 	margin-top: 20px;
@@ -185,6 +286,7 @@ body {
 	cursor: -webkit-grab; 
 	cursor: grab;
 	margin-top: 20px;
+	padding-bottom: 20px;
 }
 .bloghome1 a:hover {
 	color: #aaa9a9;
@@ -210,18 +312,6 @@ body {
 	cursor: -webkit-grab; 
 	cursor: grab;
 }
-.cr2 {
-	float: right;
-	margin-right: 660px;
-}
-.profile {
-	font-size: 30px;
-	font-family: 'Ubuntu', sans-serif;
-	text-align: center;
-	margin-left: 560px;
-	margin-right: 560px;
-	color: #fc9cc6;
-}
 .image-container {
 	margin-top: 73px;
 	margin-bottom: 80px;
@@ -245,4 +335,39 @@ body {
   left: 50%; 
   transform: translate(-50%, -50%); 
   mix-blend-mode: screen; 
+}
+.coursera {
+	margin-left: 15%;
+}
+.w3 {
+	margin-left: 15%;
+}
+.courseravalidation {
+	margin-left: 600px;
+}
+.courseravalidation2 {
+	margin-left: 600px;
+}
+/* Toggle Dark Mode Based on OS Settings */
+/*@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #121212;
+  }
+  a {
+    color: #809fff;
+  }
+} 
+*/
+.cert1 {
+	margin-top: 50px;
+	border: 3.5px solid #555;
+	border-color: black;
+	margin-left: 80px;
+}
+.cert2 {
+	margin-top: 50px;
+	border: 3.5px solid #555;
+	border-color: black;
+	margin-left: 80px;
 }
