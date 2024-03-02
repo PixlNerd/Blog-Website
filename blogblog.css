@@ -1,12 +1,14 @@
 body {
 	margin: 0px;
+	background-image: url("pink-fklowers-copy.png");
  }
  .nav {
 	background-color: #4f4f4f;
 	padding-bottom: 0px;
-	position: absolute; 
+	position: fixed; 
 	top: 0; 
 	width: 100%;
+	z-index: 1;
  }
 .blog a {
 	color: #aaa9a9;
@@ -110,7 +112,7 @@ body {
 	margin-top: 0px;
 }
 .viewall {
-	margin-top: 0px;
+	margin-top: 50px;
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-bottom: 100px;
@@ -182,7 +184,6 @@ body {
 }
 .image-container {
 	margin-top: 73px;
-	margin-bottom: 80px;
 	background-image: url("pink.jpg"); 
 	background-size: cover;
 	position: relative; 
@@ -194,13 +195,13 @@ body {
   color: black;
   font-size: 80px; 
   font-weight: bold;
-  margin: 0 auto; 
+  margin: 0 auto; /* Center the text container */
   padding: 10px;
   width: 50%;
-  text-align: center; 
-  position: absolute; 
-  top: 50%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
-  mix-blend-mode: screen; 
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
 }
