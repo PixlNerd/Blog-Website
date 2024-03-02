@@ -1,13 +1,15 @@
 body {
 	margin: 0px;
+	background-image: url("pink-fklowers-copy.png");
  }
  .nav {
 	background-color: #4f4f4f;
 	padding-bottom: 0px;
-	position: absolute; 
+	position: fixed; 
 	top: 0; 
 	width: 100%;
 	margin-bottom: 50px;
+	z-index: 1;
  }
 .blog a {
 	color: #aaa9a9;
@@ -63,23 +65,6 @@ body {
 	cursor: -webkit-grab; 
 	cursor: grab;
 }
-.post1-1 {
-	margin-top: 100px;
-}
-.viewall-1 {
-	padding-left: 0px;
-	padding-right: 10px;
-	padding-top: 50px;
-	padding-bottom: 100px;
-	margin-right: 1000px;
-	margin-left: 150px;
-	margin-top: 100px;
-	box-shadow: 5px 10px 8px #888888;
-	text-align: center;
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 50px;
-	margin-bottom: 80px;
-}
 .title {
 	font-family: 'Lobster', cursive;
 	text-align: center;
@@ -87,15 +72,14 @@ body {
 	color: #fc9cc6;
 	margin-top: 110px;
 }
-.cr {
+.cr1 {
 	background-color: #666666;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 	margin-top: 10px;
 	padding-top: 10px;
-}
-.cr1 {
 	float: left;
 	margin-top: 20px;
+	padding-right: 1458px;
 }
 .bloghome1 a {
 	margin-top: 20px;
@@ -122,6 +106,7 @@ body {
 	cursor: -webkit-grab; 
 	cursor: grab;
 	margin-top: 20px;
+	padding-bottom: 20px;
 }
 .bloghome1 a:hover {
 	color: #aaa9a9;
@@ -146,6 +131,51 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 	cursor: -webkit-grab; 
 	cursor: grab;
+}
+.hacker {
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+.post1-3 a  { 
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 0px;
+	text-align: center;
+	color: #000000;
+	padding-right: 70px;
+	padding-left: 70px;
+	text-decoration: none;
+	font-size: 20px;
+}
+.post1-3 a:hover{ 
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 0px;
+	text-align: center;
+	padding-right: 70px;
+	padding-left: 70px;
+	text-decoration: underline;
+	cursor: -webkit-grab; 
+	cursor: grab;
+}
+.post1-2{ 
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+.viewall {
+	margin-top: 50px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 100px;
+	margin-right: 1000px;
+	margin-left: 150px;
+	box-shadow: 5px 10px 8px #888888;
+	float: left;
+	margin-bottom: 50px;
 }
 .image-container {
 	margin-top: 73px;
